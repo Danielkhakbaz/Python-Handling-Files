@@ -23,7 +23,7 @@ screen.title("U.S. States Game")
 screen.setup(width=0.53, height=0.65)
 
 # The Actuall Code for the game
-screen.addshape(IMAGE)
+screen.bgpic(IMAGE)
 # turtle.shape(IMAGE)
 
 while correct_answers < 50:
